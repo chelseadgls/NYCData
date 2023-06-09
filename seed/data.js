@@ -1,3 +1,4 @@
+import mongoose from '../db/connection.js';
 import fetch from 'node-fetch';
 import Permit from '../models/Permit.js';
 
