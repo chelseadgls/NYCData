@@ -52,4 +52,14 @@ async function logNYCData() {
   insertData();
 }
 
-logNYCData();
+const minute = setInterval(() => {
+  logNYCData();
+}, 1000 * 60);
+
+const hour = setInterval(() => {
+  logNYCData();
+}, 1000 * 60 * 60);
+
+const day = setInterval(() => {
+  logNYCData();
+}, 1000 * 60 * 60 * 24);
