@@ -1,0 +1,29 @@
+{
+  "name": "nycdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chelseadgls/NYCData.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chelseadgls/NYCData/issues"
+  },
+  "homepage": "https://github.com/chelseadgls/NYCData#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "logger": "^0.0.1",
+    "mongoose": "^7.2.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.11"
+  }
+}
